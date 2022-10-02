@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(255,255,255,1);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+
+}
+
+p{
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.work-experience .subtitle{
+    color: rgba(251,109,58,1);
+
+}
+.subtitle{
+    color: rgba(251,109,58,1);
+}
+
+.sidebar {
+    width: 370px;
+}
+
+.main-section {
+    width: calc(100% - 370px);
+}

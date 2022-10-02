@@ -5,11 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width initial-scale=1.0">
         <title>My Resume</title>
-
+        <link rel="stylesheet" href="./css/styles.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
 
-        <section> <!--left section - sidebar-->
+        <section class="sidebar"> <!--left section - sidebar-->
             <img src="./images/goitimage.jpg" alt="profile picture" width="300px"/>
             <div><!--contacts-->
                 <h3>Contacts</h3>
@@ -46,7 +49,7 @@
         </section>
 
 
-        <section> <!--right section-->
+        <section class="main-section"> <!--right section-->
         <!--Summary Section-->
         <div>
             <h3>Front-End Developer</h3>
@@ -63,10 +66,11 @@
             </ol>
         </div>
         <!--Work Experience Section-->
-        <div>
-            <div> <!--first work experience-->
+        <div class="work-experience">
             <h3>Work Experience</h3>
-            <h4>Front-End Developer Freelance</h4>
+            <div> <!--first work experience-->
+            
+            <h4>Front-End Developer <span class="subtitle">Freelance</span></h4>
             <p>September 2019 - Present | Country</p>
             <ul>
                 <li>Loerm ipsum</li>
@@ -76,7 +80,7 @@
             </ul>
             </div>
             <div> <!--second work experience-->
-            <h4>Manager Glory New</h4>
+            <h4>Manager <span class="subtitle">Glory New</span></h4>
             <p>March 2015 - October 2018 | Country</p>
             <ul>
                 <li>Loerm ipsum</li>
@@ -86,7 +90,8 @@
             </ul>
             </div>
             <div> <!--third work experience-->
-            <h4>Manager Glory LLC</h4>
+                
+            <h4>Manager <span class="subtitle">Glory LLC</span></h4>
             <p>April 2014 - March 2015 | Country</p>
             <ul>
                 <li>Loerm ipsum</li>
@@ -99,7 +104,7 @@
         <!--Education Section-->
         <div>
             <h3>Education</h3>
-            <h4>University of South Carolina</h4>
+            <h4 class="subtitle">University of South Carolina</h4>
             <h4>Integrated Information Technology</h4>
             <p>August 2013 - December 2017 | Country</p>
             
