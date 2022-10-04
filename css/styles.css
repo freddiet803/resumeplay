@@ -40,8 +40,69 @@ li{
 
 .sidebar {
     width: 370px;
+    background: #1E2939;
+    padding-top: 40px;
+    color: #ffff;
+}
+.sidebar > .content {
+    margin-top: 50px;
+    margin-left: 40px;
 }
 
+.contacts p {
+    color: rgba(255,255,255,1);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 8px 0px 0px 0px;
+}
+.contacts a {
+    color: rgba(255,255,255,0.5);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.contacts h3{
+    margin: 0;
+}
+.contacts .phone-number{
+    text-decoration: none;
+    
+}
+.sidebar > .tech-skills{
+    margin: 47px 0px 0px 0px;
+}
+
+.tech-skills li {
+    color: rgba(255,255,255,1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.content ul{
+    list-style: none;
+    padding-left: 0px;
+}
+/* .tech-skills ul li::before{
+    content: "\2022";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FB6D3A;
+    display: inline-flex;
+    width: 10px;
+} */
+
+.content ul li::before{ /*vs doing two seperate blocks for tech skills and
+                        soft skills i used content class to achieve same result*/
+    content: "\2022";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FB6D3A;
+    display: inline-block;
+    width: 10px;
+}
 .main-section {
     width: calc(100% - 370px);
 }
